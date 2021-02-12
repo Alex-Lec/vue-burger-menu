@@ -36,11 +36,11 @@
           if (this.$attrs.right) {
             document.querySelector(
               '#page-wrap'
-            ).style.transform = `translate3d(-${width}, 0px, -600px ) `;
+            ).style.transform = `translate3d(-${width}, 0px, -400px ) `;
           } else {
             document.querySelector(
               '#page-wrap'
-            ).style.transform = `translate3d(${width}, 0px, -600px ) `;
+            ).style.transform = `translate3d(${width}, 0px, -400px ) `;
           }
 
           document.querySelector('#page-wrap').style.transformStyle = 'preserve-3d';
